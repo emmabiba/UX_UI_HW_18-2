@@ -1,12 +1,21 @@
 body {
-    background-color: rgb(82, 219, 48);
+    background-color: white;
   }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    align-items: center
+  }
+
   h1 {
-    color: blue;
-    border: 2px solid powderblue;
+    color: rgb(10, 83, 4);
+    border: 2px solid rgb(245, 248, 248);
     margin: 50px;
   }
   p {
-    color: red;
+    color: rgb(2, 34, 6);
     padding: 30px;
   }
