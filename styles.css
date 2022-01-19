@@ -14,7 +14,7 @@ body {
   .flexChildOne {
     text-align: center;
     color: black;
-
+    flex-direction: column;
   }
 
 
@@ -29,3 +29,9 @@ body {
     color: rgb(2, 34, 6);
     padding: 30px;
   }
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  } 
