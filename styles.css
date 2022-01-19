@@ -7,7 +7,9 @@ body {
     flex-direction: row;
     justify-content: center;
     height: 600px;
-    align-items: center
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
   }
 
   h1 {
